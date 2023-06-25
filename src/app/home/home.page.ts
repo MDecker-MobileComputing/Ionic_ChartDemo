@@ -1,6 +1,8 @@
 import { Component, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
+
+
 //import { Chart } from 'chart.js';
-import Chart from 'chart.js/auto';
+import { Chart, Colors } from 'chart.js/auto'; // https://www.chartjs.org/docs/latest/getting-started/integration.html#quick-start
 
 
 @Component({
@@ -23,7 +25,12 @@ export class HomePage implements AfterViewInit {
   }
 
   /**
-   * Zeichnet einen BarChart.
+   * Zeichnet einen BarChart mit Einwohnerzahlen der fünf größten Städte in Deutschland.
+   * <br><br>
+   * Quelle Einwohnerzahlen:
+   * https://www.wiwo.de/erfolg/trends/ranking-2023-das-sind-die-groessten-staedte-deutschlands-nach-einwohnerzahl/27461152.html
+   * <br><br>
+   *
    */
   private zeichneChart() {
 
@@ -32,10 +39,10 @@ export class HomePage implements AfterViewInit {
     new Chart(canvasKontext, {
       type: "bar",
       data: {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: ["Berlin", "Hamburg", "München", "Köln", "Frankfurt a.M."],
         datasets: [{
-          label: '# of Votes',
-          data: [12, 19, 3, 5, 2, 3],
+          label: "Anzahl Einwohner in Mio.",
+          data: [3.664, 1.852, 1.488, 1.08, 0.764],
           borderWidth: 1
         }]
       },
@@ -47,7 +54,6 @@ export class HomePage implements AfterViewInit {
         }
       }
     });
-
   }
 
 }
