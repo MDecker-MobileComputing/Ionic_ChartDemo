@@ -42,12 +42,12 @@ export class LinechartPage implements AfterViewInit {
           },
           {
             label: "Land B",
-            data: [ 4, 15, 8, 30, 35, 32 ],
+            data: [ 4, 15, 8, 55, 35, 32 ],
             borderWidth: 1
           }
         ]
-      }    
-    });    
+      }
+    });
   }
 
 }
