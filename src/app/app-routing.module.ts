@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'barchart2',
+    loadChildren: () => import('./barchart2/barchart2.module').then( m => m.Barchart2PageModule)
+  },
 ];
 
 @NgModule({

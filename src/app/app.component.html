@@ -1,4 +1,5 @@
 <ion-app>
+
   <ion-menu side="start" contentId="main-content">
     <ion-header>
       <ion-toolbar color="primary">
@@ -7,11 +8,13 @@
     </ion-header>
     <ion-content>
       <ion-list>
-        <ion-item routerLink="/home" routerDirection="forward" (click)="menuSchliessen()" >Balkendiagramm</ion-item>
+        <ion-item routerLink="/home"      routerDirection="forward" (click)="menuSchliessen()" >Balkendiagramm (1)</ion-item>
+        <ion-item routerLink="/barchart2" routerDirection="forward" (click)="menuSchliessen()" >Balkendiagramm (2)</ion-item>
       </ion-list>
     </ion-content>
   </ion-menu>
 
   <ion-router-outlet id="main-content"><!-- Wert von Attribut "id" muss wie von "contentID" von ion-menu sein -->
   </ion-router-outlet>
+
 </ion-app>
