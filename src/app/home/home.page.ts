@@ -39,7 +39,7 @@ export class HomePage implements AfterViewInit {
       data: {
         labels: ["Berlin", "Hamburg", "München", "Köln", "Frankfurt a.M."],
         datasets: [{
-          label: "Einwohner in Mio.",
+          label: "Anzahl Einwohner",
           data: [3.664, 1.852, 1.488, 1.08, 0.764],
           borderWidth: 1
         }]
@@ -47,7 +47,17 @@ export class HomePage implements AfterViewInit {
       options: {
         scales: {
           y: {
-            beginAtZero: true
+            beginAtZero: true,
+            title: {
+              text: "Anzahl Einwohner in Mio.",
+              display: true
+            }
+          },
+          x : {
+            title: {
+              text: "Die fünf größten Städte in Deutschland",
+              display: true
+            }
           }
         }
       }
