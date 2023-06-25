@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'piechart',
     loadChildren: () => import('./piechart/piechart.module').then( m => m.PiechartPageModule)
   },
+  {
+    path: 'linechart',
+    loadChildren: () => import('./linechart/linechart.module').then( m => m.LinechartPageModule)
+  },
 ];
 
 @NgModule({
