@@ -29,8 +29,6 @@ export class HomePage implements AfterViewInit {
    * <br><br>
    * Quelle Einwohnerzahlen:
    * https://www.wiwo.de/erfolg/trends/ranking-2023-das-sind-die-groessten-staedte-deutschlands-nach-einwohnerzahl/27461152.html
-   * <br><br>
-   *
    */
   private zeichneChart() {
 
@@ -41,7 +39,7 @@ export class HomePage implements AfterViewInit {
       data: {
         labels: ["Berlin", "Hamburg", "München", "Köln", "Frankfurt a.M."],
         datasets: [{
-          label: "Anzahl Einwohner in Mio.",
+          label: "Einwohner in Mio.",
           data: [3.664, 1.852, 1.488, 1.08, 0.764],
           borderWidth: 1
         }]
