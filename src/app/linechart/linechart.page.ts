@@ -37,18 +37,17 @@ export class LinechartPage implements AfterViewInit {
         datasets: [
           {
             label: "Land A",
-            data: [ 10, 15, 22, 40, 51, 60 ], // absolute Zahlen, keine Prozentwerte!
+            data: [ 10, 15, 22, 40, 51, 60 ],
             borderWidth: 1
           },
           {
             label: "Land B",
-            data: [ 4, 15, 8, 30, 35, 32 ], // absolute Zahlen, keine Prozentwerte!
+            data: [ 4, 15, 8, 30, 35, 32 ],
             borderWidth: 1
           }
         ]
       }    
     });    
   }
-
 
 }
