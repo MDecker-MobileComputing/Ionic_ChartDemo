@@ -52,7 +52,6 @@ export class RadarchartPage implements AfterViewInit {
                     label: "Filiale B",
                   }]
       },
-
       options: {
         elements: {
           line: {  borderWidth: 3 }
