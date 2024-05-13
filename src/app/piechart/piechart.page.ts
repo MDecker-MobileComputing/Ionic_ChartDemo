@@ -14,13 +14,15 @@ export class PiechartPage implements AfterViewInit {
   /** Referenziert mit `#canvasFuerChart` ausgezeichnetes Canvas-Element in HTML. */
   @ViewChild('canvasFuerChart') canvasFuerChart: any;
 
+
   /**
-   * Einzige Lifecycle-Methode aus Interface `AfterViewInit`
+   * Einzige Lifecycle-Methode aus Interface `AfterViewInit`.
    */
   ngAfterViewInit() {
 
     this.zeichneChart();
   }
+
 
   /**
    * Methode zeichnet Kuchendiagramm.

@@ -14,13 +14,15 @@ export class HomePage implements AfterViewInit {
   /** Referenziert mit `#canvasFuerChart` ausgezeichnetes Canvas-Element in HTML. */
   @ViewChild('canvasFuerChart') canvasFuerChart: any;
 
+
   /**
-   * Einzige Lifecycle-Methode aus Interface `AfterViewInit`
+   * Einzige Lifecycle-Methode aus Interface `AfterViewInit`.
    */
   ngAfterViewInit() {
 
     this.zeichneChart();
   }
+
 
   /**
    * Zeichnet einen BarChart mit Einwohnerzahlen der fünf größten Städte

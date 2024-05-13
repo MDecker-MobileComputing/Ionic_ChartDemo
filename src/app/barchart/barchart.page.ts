@@ -14,12 +14,13 @@ export class BarchartPage implements AfterViewInit {
 
 
   /**
-   * Einzige Lifecycle-Methode aus Interface `AfterViewInit`
+   * Einzige Lifecycle-Methode aus Interface `AfterViewInit`.
    */
    ngAfterViewInit() {
 
     this.zeichneChart();
   }
+
 
   /**
    * Barchart mit zwei Datenreihen erzeugen in das Canvas-Element.

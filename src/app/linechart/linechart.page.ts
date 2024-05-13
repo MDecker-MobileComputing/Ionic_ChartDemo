@@ -15,6 +15,7 @@ export class LinechartPage implements AfterViewInit {
   /** Referenziert mit `#canvasFuerChart` ausgezeichnetes Canvas-Element in HTML. */
   @ViewChild('canvasFuerChart') canvasFuerChart: any;
 
+
   /**
    * Einzige Lifecycle-Methode aus Interface `AfterViewInit`
    */
@@ -22,6 +23,7 @@ export class LinechartPage implements AfterViewInit {
 
     this.zeichneChart();
   }
+
 
   /**
    * Methode zeichnet Liniendiagramm.
