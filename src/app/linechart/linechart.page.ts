@@ -4,7 +4,10 @@ import { Component, ViewChild, AfterViewInit } from '@angular/core';
 import { Chart } from 'chart.js/auto'; // https://www.chartjs.org/docs/latest/getting-started/integration.html#quick-start
 
 
-
+/**
+ * Doku zu Line-Chart von chart.js:
+ * https://www.chartjs.org/docs/latest/charts/bar.html
+ */
 @Component({
   selector: 'app-linechart',
   templateUrl: './linechart.page.html',

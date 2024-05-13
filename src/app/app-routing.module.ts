@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'barchart',
     loadChildren: () => import('./barchart/barchart.module').then( m => m.BarchartPageModule)
   },
+  {
+    path: 'radarchart',
+    loadChildren: () => import('./radarchart/radarchart.module').then( m => m.RadarchartPageModule)
+  },
 ];
 
 @NgModule({

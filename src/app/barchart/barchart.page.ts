@@ -2,6 +2,11 @@ import { Component, ViewChild, AfterViewInit } from '@angular/core';
 
 import { Chart } from 'chart.js/auto'; // https://www.chartjs.org/docs/latest/getting-started/integration.html#quick-start
 
+
+/**
+ * Doku zu Bar-Chart von chart.js:
+ * https://www.chartjs.org/docs/latest/charts/bar.html
+ */
 @Component({
   selector: 'app-barchart',
   templateUrl: './barchart.page.html',
