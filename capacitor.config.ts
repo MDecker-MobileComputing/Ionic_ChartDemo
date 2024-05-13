@@ -1,12 +1,9 @@
-import { CapacitorConfig } from '@capacitor/cli';
+import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'de.mide.ionic.charts',
-  appName: 'ChartsDemo',
-  webDir: 'www',
-  server: {
-    androidScheme: 'https'
-  }
+  appName: 'Chart-Demo',
+  webDir: 'www'
 };
 
 export default config;

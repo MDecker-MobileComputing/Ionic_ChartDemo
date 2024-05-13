@@ -12,16 +12,16 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'barchart2',
-    loadChildren: () => import('./barchart2/barchart2.module').then( m => m.Barchart2PageModule)
+    path: 'linechart',
+    loadChildren: () => import('./linechart/linechart.module').then( m => m.LinechartPageModule)
   },
   {
     path: 'piechart',
     loadChildren: () => import('./piechart/piechart.module').then( m => m.PiechartPageModule)
   },
   {
-    path: 'linechart',
-    loadChildren: () => import('./linechart/linechart.module').then( m => m.LinechartPageModule)
+    path: 'barchart',
+    loadChildren: () => import('./barchart/barchart.module').then( m => m.BarchartPageModule)
   },
 ];
 

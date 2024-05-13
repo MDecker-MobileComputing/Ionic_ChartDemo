@@ -46,11 +46,11 @@ export class PiechartPage implements AfterViewInit {
             title: {
                 display: true,
                 text: "Wahlergebnis",
-                font: { size: 30 }                                
+                font: { size: 30 }
             }
         }
-      }      
-    });    
+      }
+    });
   }
 
 }

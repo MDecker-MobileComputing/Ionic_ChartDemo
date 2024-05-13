@@ -1,12 +1,12 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { LinechartPage } from './linechart.page';
+import { BarchartPage } from './barchart.page';
 
-describe('LinechartPage', () => {
-  let component: LinechartPage;
-  let fixture: ComponentFixture<LinechartPage>;
+describe('BarchartPage', () => {
+  let component: BarchartPage;
+  let fixture: ComponentFixture<BarchartPage>;
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LinechartPage);
+    fixture = TestBed.createComponent(BarchartPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

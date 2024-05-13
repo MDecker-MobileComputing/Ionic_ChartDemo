@@ -3,11 +3,11 @@ import { Component, ViewChild, AfterViewInit } from '@angular/core';
 import { Chart } from 'chart.js/auto'; // https://www.chartjs.org/docs/latest/getting-started/integration.html#quick-start
 
 @Component({
-  selector: 'app-barchart2',
-  templateUrl: './barchart2.page.html',
-  styleUrls: ['./barchart2.page.scss'],
+  selector: 'app-barchart',
+  templateUrl: './barchart.page.html',
+  styleUrls: ['./barchart.page.scss'],
 })
-export class Barchart2Page implements AfterViewInit {
+export class BarchartPage implements AfterViewInit {
 
   /** Referenziert mit `#canvasFuerChart` ausgezeichnetes Canvas-Element in HTML. */
   @ViewChild('canvasFuerChart') canvasFuerChart: any;

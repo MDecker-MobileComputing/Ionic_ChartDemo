@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { Barchart2PageRoutingModule } from './barchart2-routing.module';
+import { BarchartPageRoutingModule } from './barchart-routing.module';
 
-import { Barchart2Page } from './barchart2.page';
+import { BarchartPage } from './barchart.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    Barchart2PageRoutingModule
+    BarchartPageRoutingModule
   ],
-  declarations: [Barchart2Page]
+  declarations: [BarchartPage]
 })
-export class Barchart2PageModule {}
+export class BarchartPageModule {}
