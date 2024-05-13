@@ -13,7 +13,7 @@ to integrate [Charts.js](https://www.chartjs.org/) for drawing diagrams like bar
 
 <br>
 
-![Screenshot 1](screenshot_1.png)  ![Screenshot 2](screenshot_2.png)
+![Screenshot 1](screenshot_1.png) &nbsp;  ![Screenshot 2](screenshot_2.png)
 
 <br>
 
