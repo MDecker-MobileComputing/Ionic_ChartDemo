@@ -11,6 +11,7 @@ import { Chart } from 'chart.js/auto'; // https://www.chartjs.org/docs/latest/ge
   selector: 'app-barchart',
   templateUrl: './barchart.page.html',
   styleUrls: ['./barchart.page.scss'],
+  standalone: false
 })
 export class BarchartPage implements AfterViewInit {
 

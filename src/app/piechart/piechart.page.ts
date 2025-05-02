@@ -8,6 +8,7 @@ import { Chart } from 'chart.js/auto'; // https://www.chartjs.org/docs/latest/ge
   selector: 'app-piechart',
   templateUrl: './piechart.page.html',
   styleUrls: ['./piechart.page.scss'],
+  standalone: false
 })
 export class PiechartPage implements AfterViewInit {
 

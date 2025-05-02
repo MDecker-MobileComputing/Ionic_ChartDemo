@@ -11,6 +11,7 @@ import { Chart } from 'chart.js/auto'; // https://www.chartjs.org/docs/latest/ge
   selector: 'app-radarchart',
   templateUrl: './radarchart.page.html',
   styleUrls: ['./radarchart.page.scss'],
+  standalone: false
 })
 export class RadarchartPage implements AfterViewInit {
 

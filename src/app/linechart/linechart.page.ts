@@ -12,6 +12,7 @@ import { Chart } from 'chart.js/auto'; // https://www.chartjs.org/docs/latest/ge
   selector: 'app-linechart',
   templateUrl: './linechart.page.html',
   styleUrls: ['./linechart.page.scss'],
+  standalone: false
 })
 export class LinechartPage implements AfterViewInit {
 

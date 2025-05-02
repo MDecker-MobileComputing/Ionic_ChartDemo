@@ -5,19 +5,21 @@ import { MenuController } from '@ionic/angular';
   selector: 'app-root',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
+  standalone: false,
 })
 export class AppComponent {
 
-  /**
+    /**
    * Konstruktor für Dependency-Injection
    */
-  constructor(private menuController: MenuController) {}
+    constructor(private menuController: MenuController) {}
 
-  /**
-   * Event-Handler-Methode um Menü-Leiste von Hamburger-Menü zu schließen.
-   */
-  public menuSchliessen() {
+    /**
+     * Event-Handler-Methode um Menü-Leiste von Hamburger-Menü zu schließen.
+     */
+    public menuSchliessen() {
 
-    this.menuController.close();
-  }
+      this.menuController.close();
+    }
+
 }
