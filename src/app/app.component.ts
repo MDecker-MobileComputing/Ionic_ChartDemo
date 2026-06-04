@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { MenuController } from '@ionic/angular';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -10,9 +11,10 @@ import { MenuController } from '@ionic/angular';
 export class AppComponent {
 
     /**
-   * Konstruktor für Dependency-Injection
-   */
-    constructor(private menuController: MenuController) {}
+     * Konstruktor für Dependency-Injection
+     */
+    constructor( private menuController: MenuController ) {}
+
 
     /**
      * Event-Handler-Methode um Menü-Leiste von Hamburger-Menü zu schließen.
