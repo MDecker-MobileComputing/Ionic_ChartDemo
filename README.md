@@ -1,9 +1,9 @@
-# Using Chart.js with Ionic #
+# Ionic-App mit Chart.js  #
 
 <br>
 
-This repository conatins an [Ionic](https://ionicframework.com/) app that shows how
-to integrate [Charts.js](https://www.chartjs.org/) for drawing diagrams like bar chars.
+Dieses Repository enthält eine [Ionic](https://ionicframework.com/)-App, die zeigt, wie man
+[Charts.js](https://www.chartjs.org/) für Diagramme verwendet.
 
 <br>
 
