@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Chart-Demo</string>
+    <string name="title_activity_main">Chart-Demo</string>
+    <string name="package_name">de.mide.ionic.charts</string>
+    <string name="custom_url_scheme">de.mide.ionic.charts</string>
+</resources>
